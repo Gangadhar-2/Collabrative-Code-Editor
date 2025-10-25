@@ -1,0 +1,106 @@
+
+.monaco-editor {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.monaco-editor .suggest-widget {
+  z-index: 1000 !important;
+}
+
+.monaco-editor .monaco-hover {
+  z-index: 1000 !important;
+}
+
+.monaco-editor .context-menu {
+  z-index: 1100 !important;
+}
+
+.monaco-editor .find-widget {
+  z-index: 1050 !important;
+}
+
+.monaco-editor .monaco-scrollable-element > .scrollbar {
+  z-index: 15 !important;
+}
+
+
+.monaco-editor .minimap {
+  z-index: 5 !important;
+}
+
+.monaco-editor .view-lines {
+  position: relative !important;
+  z-index: 12 !important;
+}
+
+
+.monaco-editor .cursor {
+  z-index: 20 !important;
+}
+
+.monaco-editor .view-line .view-line-content .mtk {
+  position: relative !important;
+}
+
+.editor-container {
+  position: relative !important;
+  isolation: isolate !important;
+}
+
+.floating-ui-elements {
+  z-index: 40 !important;
+}
+
+.side-panel {
+  z-index: 30 !important;
+}
+
+.editor-header {
+  z-index: 35 !important;
+}
+
+.modal-overlay {
+  z-index: 50 !important;
+}
+
+.status-bar {
+  z-index: 25 !important;
+}
+
+.react-hot-toast {
+  z-index: 9999 !important;
+}
+
+.loading-spinner {
+  z-index: 100 !important;
+}
+
+.monaco-editor-container {
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+
+.monaco-editor .monaco-editor-background {
+  background-color: #1e1e1e !important;
+}
+
+.monaco-editor .view-line {
+  line-height: 1.5 !important;
+}
+
+
+.monaco-editor:focus-within {
+  outline: none !important;
+}
+
+.monaco-editor .monaco-editor-container:focus {
+  outline: 2px solid #007acc !important;
+  outline-offset: -2px !important;
+}

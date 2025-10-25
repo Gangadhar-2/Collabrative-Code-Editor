@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.vite/
+.parcel-cache/
+.eslintcache
+.env
+.env.*
+*.log
+.DS_Store

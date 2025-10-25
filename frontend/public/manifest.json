@@ -1,0 +1,8 @@
+{
+  "name": "CodeCollab",
+  "short_name": "CodeCollab",
+  "theme_color": "#6366f1",
+  "background_color": "#1e1b4b",
+  "display": "standalone",
+  "start_url": "/"
+}

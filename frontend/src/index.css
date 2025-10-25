@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.min-h-screen.flex {
+  background: linear-gradient(to bottom right, #581c87, #1e3a8a, #312e81);
+}
+
+.min-h-screen.flex input {
+  color: white !important;
+}
+
+.min-h-screen.flex input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+.login-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-page .bg-white\/10 {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.login-page input {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  backdrop-filter: blur(10px);
+}
+
+.login-page input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.login-page .backdrop-blur {
+  backdrop-filter: blur(10px) !important;
+}
